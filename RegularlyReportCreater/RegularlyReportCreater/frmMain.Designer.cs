@@ -53,6 +53,7 @@
             this.btnCreate.TabIndex = 1;
             this.btnCreate.Text = "定期報告作成";
             this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
             // btnMasterEdit
             // 
@@ -62,6 +63,7 @@
             this.btnMasterEdit.TabIndex = 2;
             this.btnMasterEdit.Text = "マスタ編集";
             this.btnMasterEdit.UseVisualStyleBackColor = true;
+            this.btnMasterEdit.Click += new System.EventHandler(this.btnMasterEdit_Click);
             // 
             // btnExit
             // 
